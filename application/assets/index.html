@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> expo</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/css1.css">
+        <!-------------La chatgraphi------------------>
+        <link rel="stylesheet" href="css/GlobaleColor.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body   style="background: #f4f0f0;">
+        <header><img src="./abdelfatah-header.jpg" id="header"  width="100%" alt=""></header>
+        <div  style="margin: auto;display: flex;justify-content: center;align-items: center;background-color: #9ef2ff;">
+              <a class="nav-link " href="../../index.html"  style="width:fite-content;position: relative;"><span style="color:white; font-weight:bold"> Accueil </span> </a>
+                      <a class="nav-link " href="./displayv.html"  style="width:fite-content;position: relative;"><span style="color:white; font-weight:bold"> Best of </span> </a>
+
+        </div>
+        <div  class="content">
+        
+            <div class="lefttop">
+                <i class="fas fa-volume-mute logo" style="display: none;" onclick="logo()"></i>
+                <div id="contentvedio"><img src="./img/app/AFFICHE.jpg" width="100%" /></div>
+            </div>
+            <div class="contentright">
+                <div class="righttop"  >
+                    <!--Les jours --->
+                    <div class="btn-group btnjour"  style="display: flex;" role="group" id="btnjour" aria-label="Basic example">
+                        <!--  btnJours -->
+                        <button style="outline: none; " class="btnjr1 btnactive">Jeudi</button>
+                        <button style="outline: none; " class="btnjr2 ">Vendredi</button>
+                        <button style="outline: none;  ;" class="btnjr3 ">Samedi</button>
+                        <button style="outline: none;" class=" "><a href="../galerie/all.html" style="outline: none;color:white;"  class="btnjr4 ">PHOTOS</a></button>
+                    </div>
+                    <div id="contentjour"  class="contentjour">
+                            <div  class="jr1 jr jouractive">
+                                <h1> Jeudi  26 Octobre 2023 </h1>
+        
+                                <!-- <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/tA94GSdbDBw?si=h9cG2WCjjlmmD20n"><img
+                                    src="./img/rediffusion/jeudi/00.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div> -->
+                                
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/sMWRaCy5L74?si=6OvFyDqf98d56JGD"><img
+                                    src="./img/rediffusion/jeudi/01.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/r4OZsih7Lo8?si=DQz7pGmy90DoZoPj"><img
+                                    src="./img/rediffusion/jeudi/02.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/fSd1bmJnb6E?si=o1ii8RVm0Kz5z9kk"><img
+                                    src="./img/rediffusion/jeudi/03.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/bf4uXS59PNM?si=KZANrHlE3SbUJyR2"><img
+                                    src="./img/rediffusion/jeudi/05.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/WblsBegkPQw?si=alajmSm2Ti9A9C_7"><img
+                                    src="./img/rediffusion/jeudi/06.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/62Nm--WWHEs?si=y4vsIv2UOTYJKvBm"><img
+                                    src="./img/rediffusion/jeudi/07.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <!-- <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/Yqk7KaqPoM0?si=dbui3-qUiLhrR2l_"><img
+                                    src="./img/rediffusion/jeudi/08.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div> -->
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/Yqk7KaqPoM0?si=gD1Dcxubc2zgBhFg"><img
+                                    src="./img/rediffusion/jeudi/09.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/r2uLvckYf0I?si=3pcsYsKu5KgJNde3"><img
+                                    src="./img/rediffusion/jeudi/10.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                               
+        
+                            </div>
+                            <div  class="jr2 jr ">
+                                <h1> Vendredi  27 Octobre 2023 </h1>
+<!--         
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/tA94GSdbDBw?si=h9cG2WCjjlmmD20n"><img
+                                    src="./img/rediffusion/vendredi/matin/01.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/VtABVu5zYEM?si=6OvFyDqf98d56JGD"><img
+                                    src="./img/rediffusion/vendredi/matin/02.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/raykCRZX2NY?si=DQz7pGmy90DoZoPj"><img
+                                    src="./img/rediffusion/vendredi/matin/03.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/dCKyTr7Tdd8?si=o1ii8RVm0Kz5z9kk"><img
+                                    src="./img/rediffusion/vendredi/matin/04.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/66-4AQam1wI?si=KZANrHlE3SbUJyR2"><img
+                                    src="./img/rediffusion/vendredi/matin/05.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/2QhFXa5zrtQ?si=alajmSm2Ti9A9C_7"><img
+                                    src="./img/rediffusion/vendredi/matin/06.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div> -->
+                                <!-- <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/tv4vPtQ8roM?si=y4vsIv2UOTYJKvBm"><img
+                                    src="./img/rediffusion/vendredi/matin/07.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/11ClOYeu1uI?si=dbui3-qUiLhrR2l_"><img
+                                    src="./img/rediffusion/vendredi/matin/08.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div> -->
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/P-1xvP5k_7U?si=gD1Dcxubc2zgBhFg"><img
+                                    src="./img/rediffusion/vendredi/soir/01.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/Q8qwBTCDUeU?si=3pcsYsKu5KgJNde3"><img
+                                    src="./img/rediffusion/vendredi/soir/03.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/3ZT_XRLTNxo?si=iO8DLMgNAlFu3icF"><img
+                                    src="./img/rediffusion/vendredi/soir/04.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/cxf_q5MLr5Y?si=5VPJYH65_Od5a2v3"><img
+                                    src="./img/rediffusion/vendredi/soir/05.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <p class="session">Atelier => Novartis : Psoriasis en plaques modérés à sévères</p>
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/G3AtKpxvE4Q?si=OCv3dDhxlNqbS0jR"><img
+                                    src="./img/rediffusion/vendredi/soir/ATL 3.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div>
+                                <p class="session">Atelier => Cynosure : Traitement combiné avec picosure et radiofréquence </p>
+
+                              
+                                <div class="txtnormal">
+                                <li><a onclick='vedioSource(this)' id="https://www.youtube.com/embed/mvKRLZ0RxUs?si=SEuX3J5jZX_P1zcM"><img
+                                    src="./img/rediffusion/vendredi/soir/ATL 1.png" width="100%" alt=""><span class="btnplay"><img
+                                    src="image/Play.png" width="10%" alt=""></span></a></li>
+                                </div> 
+        
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/js.js"></script>
+        <script src="js/rediffusion.js"></script>
+        <!-- lien de live -->
+        <a hidden id="cmclive" class="glightbox"></a>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/glightbox.min.js" id="glightbox"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    </body>
+</html>
